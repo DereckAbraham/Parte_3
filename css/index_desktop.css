@@ -1,0 +1,512 @@
+header {
+    height: 10rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 2rem 0rem 2rem;
+}
+.abrir_menu {
+    display: none;
+}
+.items_1 {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 3rem;
+    font-weight: 900;
+}
+.items {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    flex-direction: row;
+    gap: 6rem;
+    font-weight: 700;
+    font-size: 2rem;
+}
+.items a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+.items_3 {
+    display: flex;
+    gap: 1rem;
+}
+.items_3 button {
+    width: 15rem;
+    height: 4rem;
+    cursor: pointer;
+    border: none;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+.sig {
+    background-color: white;
+}
+.but {
+    background-color: blueviolet;
+    border-radius: 10rem;
+    color: white;
+}
+.cajapadre {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0rem 8rem 4rem 8rem; 
+}
+.cjas_2 {
+    display: flex;
+    background-image: url(/img/layer.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 3rem 0rem 3rem;
+}
+.cjas_1 {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;    
+}
+.mose {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    color: #F85E9F;
+    font-weight: 700;
+    font-size: 2rem;
+}
+.tra {
+    font-size: 8rem;
+    font-weight: 800;
+}
+.mak {
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: Grey;
+}
+.botones {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.botones button {
+    width: 15rem;
+    height: 6rem;
+    border: none;
+    border-radius: 10rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+.get {
+    background-color: #5d50c6;
+}
+.dem {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.final {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 5rem;
+}
+.info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.let {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 2rem;
+}
+.ser {
+    font-size: 2.7rem;
+    font-weight: 700;
+    color: #F85E9F;
+}
+.for {
+    font-size: 5rem;
+    font-weight: 700;
+}
+.ma {
+    display: flex;
+}
+.guide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    padding: 2rem 2rem 0rem 0rem;
+}
+.estruc {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+}
+.bes {
+    font-size: 3.2rem;
+    font-weight: 700;
+}
+.textito {
+    font-size: 2.2rem;
+    font-weight: 400;
+    color: gray;
+}
+.exp {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 2rem 0rem 2rem;
+}
+.tin {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.ros {
+    font-size: 2.3rem;
+    font-weight: 700;
+    color: #F85E9F;
+}
+.por {
+    font-size: 5rem;
+    font-weight: 700;
+}
+.flec {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+}
+.cles1 {
+    width: 10rem;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 100%;
+}
+.cles2 {
+    width: 10rem;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5D50C6;
+    border-radius: 100%;
+}
+.paisajes {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+.minis {
+    border-radius: 3rem 3rem 2rem 2rem;
+    background-color: #fdfdfd6d;
+}
+.xet {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem 0rem 0rem 0rem;
+    width: 37.4rem;
+}
+.txe {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.nre {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.isp {
+    font-size: 2rem;
+    font-weight: 400;
+    color: #191825BF;
+}
+.tre {
+    font-size: 2.5rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: #FF5722;
+}
+.dol {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #F85E9F;
+}
+.comple {
+    display: flex;
+    justify-content: center;
+    padding: 0rem 4rem 0rem 0rem;
+}
+.naonao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.lett {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 0rem 0rem 1rem 0rem;
+}
+.tit {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #F85E9F;
+}
+.drem {
+    font-size: 4.4rem;
+    font-weight: 700;
+}
+.pop {
+    font-size: 2rem;
+    font-weight: 400;
+}
+.box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 4rem;
+}
+.boxsitos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.5rem;
+    border: 1px solid #191825;
+    border-radius: 2rem;
+}
+.prec {
+    font-size: 4rem;
+    font-weight: 700;
+    color: #FF5722;
+}
+.holi {
+    font-size: 2.1rem;
+    font-weight: 400;
+}
+.parte_3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3rem;
+}
+.key {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.fet {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #F85E9F;
+}
+.oofer {
+    font-size: 4.5rem;
+    font-weight: 700;
+}
+.ipsum {
+    font-size: 2.3rem;
+    font-weight: 400;
+    color: gray;
+}
+.ubis {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 0rem 0rem 0rem;
+    gap: 4rem;
+}
+.cuadr {
+    display: flex;
+    width: 50rem;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid gray;
+}
+.buttt {
+    width: 10rem;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FF5722;
+    border-radius: 3.2rem;
+}
+.buttt_1 {
+    width: 10rem;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FACD49;
+    border-radius: 3.2rem;
+}
+.buttt_2 {
+    width: 10rem;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3.2rem;
+    background-color: #F85E9F;
+}
+.jiji {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.we {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.not {
+    font-size: 2rem;
+    font-weight: 400;
+    color: gray
+}
+.entero {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+}
+.cosas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+.moradito {
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: #F85E9F;
+    border-radius: 100%;
+}
+.tes {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #F85E9F;
+}
+.our {
+    font-size: 4.1rem;
+    font-weight: 700;
+}
+.mark {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #FF5722;
+}
+.vel {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: gray;
+}
+.bc {
+    font-size: 2.7rem;
+    font-weight: 400;
+    color: grey;
+}
+.final_2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 5rem 0rem 0rem 0rem;
+}
+.textno {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    text-align: center;
+}
+.kkkk {
+    display: flex;
+    flex-direction: row;
+    gap: 10rem;
+    align-items: center ;
+}
+.crib {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #F85E9F;
+}
+.world {
+    font-size: 6rem;
+    font-weight: 700
+}
+.il {
+    width: 75rem;
+    height: 8rem;
+    border: 1px solid gray;
+    border-radius: 2rem;
+    padding: 2rem;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: grey;
+}
+.kkkk button {
+    text-align: center;
+    width: 20rem;
+    height: 8rem;
+    border: none;
+    background-color: #5D50C6;
+    border-radius: 3rem;
+    cursor: pointer;
+    font-size: 2.3rem;
+    font-weight: 700;
+    color: white;
+}
+.final_2 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 10rem 0rem 0rem 2rem;
+}
+.esk {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.belief {
+    font-size: 2.5rem;
+    font-weight: 400;
+    color: gray;
+}
+.information {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 1.5rem;
+}
+.mations {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    width: 20rem;
+}
+.titulo {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.subtitulo {
+    font-size: 2rem;
+    font-weight: 400;
+    color: grey;
+}
